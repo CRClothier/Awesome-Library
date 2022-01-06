@@ -1,0 +1,50 @@
+body {
+  margin: 0 20px;
+  font-family: 'Asap', sans-serif;
+}
+
+hr {
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.book:nth-child(odd) {
+  background-color: #ddd;
+}
+
+.horizontal-line {
+  width: 25%;
+  height: 3px;
+  background-color: black;
+}
+
+.nav-links {
+  text-decoration: none;
+  color: black;
+  padding: 0 10px;
+}
+
+.nav-links:nth-child(2) {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.show {
+  display: block;
+}
+
+.active {
+  color: blue;
+}
+
+header {
+  position: fixed;
+  top: 2px;
+  left: 0.5%;
+  width: 99%;
+}
+
+section {
+  display: none;
+}
