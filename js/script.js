@@ -1,3 +1,4 @@
+/* eslint-disable no-use-before-define no-undef */
 import Book from './book.js';
 
 const addBookBtn = document.querySelector('#add');
@@ -61,6 +62,6 @@ contactLink.addEventListener('click', () => {
 });
 
 const time = document.querySelector('.time');
-const now = luxon.DateTime.now();// eslint-disable-line no-undef
-const date = luxon.DateTime.fromISO(now);// eslint-disable-line no-undef
-time.innerHTML = date.toLocaleString(luxon.DateTime.DATETIME_MED);// eslint-disable-line no-undef
+const now = luxon.DateTime.now(); 
+const date = luxon.DateTime.fromISO(now);
+time.innerHTML = date.toLocaleString(luxon.DateTime.DATETIME_MED); 
