@@ -1,6 +1,6 @@
 let removeBtns = document.querySelectorAll('.remove');
 
-export class Book {
+export default class Book {
   static books = [];
 
   static #bookDiv = document.querySelector('#books');

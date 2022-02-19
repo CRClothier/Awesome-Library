@@ -1,4 +1,4 @@
-import { Book } from './book.js'
+import { Book } from './book.js';
 
 const addBookBtn = document.querySelector('#add');
 addBookBtn.addEventListener('click', (e) => {
